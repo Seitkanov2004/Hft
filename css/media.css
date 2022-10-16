@@ -1,0 +1,926 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ruda&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: #15141A;
+}
+
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (max-width: 1200px) {
+  #text .text span {
+    padding: 30px 17px;
+  }
+  #about .about--img__block {
+    width: 242px;
+    height: 410px;
+  }
+  #about .about--img__block--z {
+    width: 223px;
+  }
+  #about .about--img__block--text {
+    width: 90%;
+  }
+  #about .about--img__block hr {
+    width: 220px;
+  }
+  #about .about--img__block {
+    height: 383px;
+  }
+  #about .about--img__block--icons {
+    width: 226px;
+  }
+  #week .week--block__red ol li .go--let h1 {
+    font-size: 1rem;
+  }
+  #week .week--block__red {
+    width: 334px;
+  }
+  #week .week--block__red ol li .go--let p {
+    font-size: 0.8rem;
+  }
+  #week .week--block__red ol li .go {
+    width: 276px;
+  }
+  #hero .hero--h1__block--a {
+    display: none;
+  }
+  #hero .hero--p__a {
+    display: none;
+  }
+  #hero .hero--h1__block1--c {
+    display: none;
+  }
+  #hero .hero--h1__block1--b {
+    display: none;
+  }
+  #hero .hero--h1__block2--red__h {
+    display: none;
+  }
+  #hero .hero--h1__block2--red__d {
+    display: none;
+  }
+  #work .work--block3__say {
+    display: none;
+  }
+  #work .work--block1__try--do {
+    display: none;
+  }
+  #work .work--block1__try--red {
+    display: none;
+  }
+  #work .work--block1__were {
+    display: none;
+  }
+  #work .work--block2__do {
+    display: none;
+  }
+  #about .about--text__a {
+    display: none;
+  }
+  #about .about--text__b {
+    display: none;
+  }
+  #about .about--text__d {
+    display: none;
+  }
+  #about .about--text__c {
+    display: none;
+  }
+  #week .week--text__a {
+    display: none;
+  }
+  #week .week--say__block1 {
+    display: none;
+  }
+  #week .week--say__block2 {
+    display: none;
+  }
+  #nft .nft--image__f {
+    display: none;
+  }
+  #service .service--btn__btA {
+    margin: 20px 0 20px 44%;
+  }
+  #service .service--btn__C {
+    display: none;
+  }
+  #service .service--btn__A {
+    display: none;
+  }
+  #service .service--btn__D {
+    display: none;
+  }
+  #service .service--btn__B {
+    display: none;
+  }
+  #footer .footer--logo__a h1 {
+    font-size: 66px;
+  }
+  #footer .footer--logo__a h2 {
+    font-size: 47px;
+  }
+  #footer .footer--account__sp span {
+    font-size: 24px;
+  }
+  #footer .footer--email h1 {
+    width: 300px;
+    font-size: 30px;
+  }
+  #work .work--block3 p {
+    margin-top: 318px;
+  }
+}
+@media (max-width: 1024px) {
+  #header .header--logo h1 {
+    font-size: 28px;
+  }
+  #header .header--logo h1 span {
+    font-size: 20px;
+  }
+  #header .header--input label input {
+    width: 278px;
+    height: 39px;
+    font-size: 12px;
+  }
+  #header .header--input {
+    width: 300px;
+    height: 44px;
+  }
+  #header .header--input__search {
+    top: 9px;
+  }
+  #work .work--block2 img {
+    width: 331px;
+    height: 537px;
+  }
+  #work .work--block2__wos {
+    width: 294px;
+    height: 451px;
+  }
+  #work .work--block2 {
+    width: 262px;
+  }
+  #image .image .swiper-slide h1 {
+    font-size: 26px;
+    top: 221px;
+  }
+  #image .image .swiper-slide p {
+    width: 246.51px;
+    font-size: 14px;
+    top: 260px;
+  }
+  #image .image .swiper-slide button {
+    top: 324px;
+  }
+  .container {
+    width: 90%;
+  }
+  .nft--image img {
+    width: 100%;
+  }
+  #footer .footer--logo__a h1 {
+    font-size: 56px;
+  }
+  #footer .footer--logo__a h2 {
+    font-size: 37px;
+  }
+  #footer .footer--account__sp {
+    width: 300px;
+  }
+  #footer .footer--account__sp span {
+    font-size: 20px;
+  }
+  #footer .footer--email h1 {
+    width: 219px;
+    font-size: 24px;
+  }
+  #footer .footer--email--int input {
+    width: 177px;
+    height: 46px;
+    font-size: 12px;
+  }
+  #footer .footer--email--int__btn {
+    padding: 12px;
+  }
+  #footer .footer--logo p {
+    font-size: 12px;
+  }
+  #footer .footer--account__ap--a__z {
+    font-size: 14px;
+  }
+  #footer .footer--account__ap--a {
+    width: 36px;
+    height: 36px;
+  }
+  #footer .footer--account__ap {
+    width: 285px;
+  }
+  #footer .footer--email--int__end span {
+    font-size: 14px;
+  }
+}
+@media (max-width: 992px) {
+  #hero .hero--h1__block h1 {
+    font-size: 6rem;
+  }
+  #hero .hero--h1__block1 h1 {
+    font-size: 6rem;
+  }
+  #hero .hero--h1__block2 h1 {
+    font-size: 6rem;
+  }
+  #work .work--block2 img {
+    width: 311px;
+    height: 508px;
+  }
+  #work .work--block2 img {
+    width: 299px;
+    height: 483px;
+  }
+  #work .work--block2__wos {
+    width: 295px;
+    height: 405px;
+  }
+  #work .work--block2 {
+    width: 234px;
+  }
+  #nft .nft--image__img18 {
+    left: -124px;
+    height: 480px;
+  }
+  #header .header--input {
+    width: 274px;
+  }
+  #header .header--input label input {
+    width: 247px;
+  }
+}
+@media (max-width: 768px) {
+  .header--navbar {
+    display: none;
+  }
+  .header--icons {
+    display: none;
+  }
+  #header .header--menu {
+    display: block;
+  }
+  #hero .hero--h1__block h1 {
+    font-size: 4rem;
+  }
+  #hero .hero--h1__block1 h1 {
+    font-size: 4rem;
+  }
+  #hero .hero--h1__block2 h1 {
+    font-size: 4rem;
+  }
+  #hero .hero--h1__block img {
+    width: 139px;
+  }
+  #hero .hero--h1__block1 img {
+    width: 213px;
+  }
+  #hero .hero--p p {
+    font-size: 1rem;
+  }
+  #work .work--block1__text p {
+    width: 171px;
+    font-size: 0.9rem;
+  }
+  #work .work--block1__text--circle div {
+    width: 28px;
+    height: 28px;
+  }
+  #work .work--block1__text--circle {
+    width: 64px;
+    height: 64px;
+  }
+  #work .work--block2 img {
+    width: 246px;
+    height: 391px;
+  }
+  #work .work--block2__wos {
+    width: 257px;
+    height: 319px;
+  }
+  #work .work--block2 {
+    width: 177px;
+  }
+  #work .work--block3 p {
+    width: 178px;
+    font-size: 0.9rem;
+    margin-left: 40px;
+  }
+  #work .work--block1 {
+    height: 456px;
+  }
+  #work .work--block2 {
+    height: 456px;
+  }
+  #text .text span {
+    font-size: 1.5rem;
+  }
+  #text .text span .img3 {
+    display: none;
+  }
+  #text .text span .img1 {
+    display: none;
+  }
+  #text .text span .img2 {
+    display: none;
+  }
+  #text .text img {
+    height: 33px;
+  }
+  #image .image--text__a span {
+    font-size: 1.3rem;
+  }
+  #image .image--text h1 {
+    font-size: 2rem;
+  }
+  #about .about--btn label .select1 {
+    font-size: 1rem;
+    width: 201px;
+    height: 52px;
+    border-radius: 5px;
+    margin-right: 282px;
+  }
+  #about .about--btn label .select2 {
+    font-size: 1rem;
+    width: 201px;
+    height: 52px;
+  }
+  #about .about--img__block {
+    width: 218px;
+    border-radius: 12px;
+    height: 360px;
+  }
+  #about .about--img__block--z {
+    width: 199px;
+    height: 201px;
+  }
+  #about .about--img__block--text__a h1 {
+    font-size: 1.1rem;
+  }
+  #about .about--img__block--text__a--q span {
+    font-size: 0.8rem;
+  }
+  #about .about--img__block--text__b p {
+    font-size: 0.8rem;
+  }
+  #about .about--img__block hr {
+    width: 90%;
+  }
+  #about .about--img__block--icons {
+    width: 90%;
+  }
+  #about .about--img__btn {
+    font-size: 1.2rem;
+  }
+  #week .week--text h2 {
+    font-size: 1.4rem;
+  }
+  #week .week--text h1 {
+    font-size: 2.4rem;
+  }
+  #week .week--text select {
+    font-size: 2.2rem;
+  }
+  #week .week--block__red ol li .go {
+    width: 100%;
+  }
+  #week .week--block__red {
+    width: 310px;
+  }
+  #week .week--block__red ol {
+    margin-left: 35px;
+  }
+  #week .week--say__btn {
+    font-size: 1.2rem;
+  }
+  #nft .nft--text__c h2 {
+    font-size: 1.4rem;
+  }
+  #nft .nft--text h1 {
+    width: 300px;
+    font-size: 2.2rem;
+  }
+  #nft .nft--image__img18 {
+    height: 373px;
+  }
+  #service .service--text__a h2 {
+    font-size: 1.4rem;
+  }
+  #service .service--text h1 {
+    font-size: 2.4rem;
+  }
+  #service .service details summary p {
+    font-size: 0.7rem;
+    line-height: 15px;
+    width: 273px;
+  }
+  #service .service details summary span {
+    font-size: 1.8rem;
+  }
+  #service .service details summary .a1 span {
+    font-size: 1.2rem;
+  }
+  #service .service--btn__btA {
+    margin: 20px 0 20px 40%;
+  }
+  #service .service--btn__btA {
+    font-size: 1.2rem;
+  }
+  #footer .footer--logo__a h1 {
+    font-size: 2.2rem;
+  }
+  #footer .footer--logo__a h2 {
+    font-size: 1.4rem;
+  }
+  #footer .footer--logo__a h2 {
+    margin-top: 12px;
+  }
+  #footer .footer--logo {
+    width: 157px;
+  }
+  #footer .footer--logo p {
+    font-size: 0.7rem;
+    width: 152px;
+  }
+  #footer .footer--account__sp span {
+    font-size: 1.2rem;
+  }
+  #footer .footer--account__sp {
+    width: 269px;
+  }
+  #footer .footer--account__ap {
+    width: 247px;
+  }
+  #footer .footer--email h1 {
+    font-size: 1.6rem;
+  }
+  #footer .footer--email--int input {
+    height: 40px;
+  }
+  #footer .footer--email--int__btn {
+    padding: 9px;
+  }
+  #footer .footer--email--int input {
+    border-radius: 5px;
+  }
+}
+@media (max-width: 578px) {
+  #header .header--input label input {
+    width: 220px;
+  }
+  #header .header--input {
+    width: 244px;
+  }
+  #hero .hero h1 {
+    font-size: 3rem;
+  }
+  #hero .hero--h1__block img {
+    width: 102px;
+  }
+  #hero .hero--h1__block1 img {
+    width: 165px;
+  }
+  #work .work--block1 {
+    height: 0;
+  }
+  #work .work--block1__text {
+    margin-bottom: 0;
+  }
+  #work .work {
+    flex-direction: column;
+    align-items: center;
+  }
+  #work .work--block1 {
+    height: 101px;
+    margin-left: -185px;
+  }
+  #work .work--block3 p {
+    margin-top: 0;
+  }
+  #work .work--block3 p {
+    margin-top: 318px;
+  }
+  #work .work--block3 p {
+    margin-top: 40px;
+  }
+  #work .work--block2 {
+    height: 399px;
+  }
+  #work .work--block3 p {
+    margin-right: -198px;
+  }
+  #text .text img {
+    padding: 17px 0;
+  }
+  #text .text span {
+    padding: 7px 0;
+  }
+  #about .about--btn label .select1 {
+    width: 150px;
+    height: 50px;
+    margin-right: 155px;
+  }
+  #about .about--btn label .select2 {
+    width: 135px;
+    height: 50px;
+  }
+  #week .week--say__btn {
+    font-size: 1rem;
+  }
+  #nft .nft--image span {
+    font-size: 2.6rem;
+    left: 42px;
+    bottom: 56px;
+  }
+  #service .service details summary .a1 span {
+    width: 73px;
+  }
+  #service .service--btn__btA {
+    margin: 20px 0 20px 36%;
+  }
+  #footer .footer--logo__a h1 {
+    font-size: 2rem;
+  }
+  #footer .footer--logo__a h2 {
+    font-size: 1.2rem;
+  }
+  #footer .footer--account__sp {
+    width: 155px;
+    flex-direction: column;
+  }
+  #footer .footer--account__sp span {
+    padding: 5px 0;
+  }
+  #footer .footer--account__ap {
+    width: 155px;
+    flex-wrap: wrap;
+  }
+  #footer .footer--account__ap--a {
+    margin: 4px;
+  }
+  #footer .footer--email h1 {
+    font-size: 1.2rem;
+    line-height: 32px;
+    width: 150px;
+  }
+  #footer .footer--email--int input {
+    width: 110px;
+    height: 36px;
+  }
+  #footer .footer--email--int__btn {
+    padding: 10px;
+  }
+  #footer .footer--email--int input {
+    font-size: 0.6rem;
+  }
+  #footer .footer--email--int__btn--a {
+    font-size: 1rem;
+  }
+  #footer .footer--email--int__end span {
+    width: 100px;
+  }
+}
+@media (max-width: 450px) {
+  #hero .hero h1 {
+    font-size: 2rem;
+  }
+  #hero .hero--p p {
+    font-size: 0.8rem;
+  }
+  #header .header--logo h1 {
+    font-size: 1.6rem;
+  }
+  #header .header--logo h1 span {
+    font-size: 1rem;
+  }
+  #header .header--logo__a {
+    width: 16px;
+    height: 16px;
+  }
+  #header .header--input label input {
+    width: 172px;
+    height: 30px;
+  }
+  #header .header--input__search {
+    font-size: 1rem;
+  }
+  #header .header--input {
+    width: 198px;
+    height: 30px;
+  }
+  #hero .hero--h1__block img {
+    width: 75px;
+  }
+  #hero .hero--h1__block1 img {
+    width: 129px;
+  }
+  #work .work--block1__text p {
+    width: 173px;
+    margin-left: 20px;
+    font-size: 0.8rem;
+  }
+  #work .work--block1__text--circle div {
+    width: 18px;
+    height: 18px;
+  }
+  #work .work--block1__text--circle {
+    width: 54px;
+    height: 54px;
+  }
+  #work .work--block3 p {
+    font-size: 0.8rem;
+  }
+  #text .text span {
+    font-size: 1.2rem;
+  }
+  #text .text img {
+    height: 22px;
+  }
+  #text .text {
+    padding: 59px 0;
+  }
+  #image .image {
+    margin: 48px 0;
+  }
+  #hero .hero {
+    padding-top: 107px;
+  }
+  #about .about--btn label .select1 {
+    margin-right: 108px;
+  }
+  #about .about--img__btn {
+    margin: 29px 0;
+    font-size: 1rem;
+  }
+  #week .week--text h1 {
+    font-size: 2rem;
+  }
+  #week .week--text h2 {
+    font-size: 1.2rem;
+  }
+  #week .week--text select {
+    font-size: 1.8rem;
+  }
+  #nft .nft--image span {
+    font-size: 2rem;
+  }
+  #nft .nft--text h1 {
+    width: 270px;
+    font-size: 2rem;
+  }
+  #nft .nft--image__img18 {
+    height: 223px;
+    left: -53px;
+  }
+  #header .header--modal__modal1--modal2 {
+    width: 24%;
+  }
+  #service .service--text h1 {
+    font-size: 2rem;
+  }
+  .a1 img {
+    width: 20px;
+  }
+  #service .service details summary .a1 span {
+    font-size: 1rem;
+    margin-left: 4px;
+    width: 57px;
+  }
+  #service .service details summary span {
+    font-size: 1.2rem;
+  }
+  #service .service details summary span {
+    font-size: 1.2rem;
+    width: 122px;
+  }
+  #service .service details summary {
+    align-items: center;
+  }
+  #service .service details summary p {
+    font-size: 0.5rem;
+    line-height: 12px;
+    width: 166px;
+  }
+  #service .service details summary {
+    padding: 16px 0;
+  }
+  #service .service--btn__btA {
+    font-size: 1rem;
+    margin: 20px 0 20px 34%;
+  }
+  #footer .footer {
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+  #footer .footer--logo {
+    height: 42px;
+    margin: 20px 0;
+    flex-direction: row;
+    width: 90%;
+  }
+  #footer .footer--account__sp {
+    width: 300px;
+    flex-direction: row;
+  }
+  #footer .footer--account__ap {
+    width: 248px;
+  }
+  #footer .footer--email {
+    flex-direction: row;
+    height: 76px;
+    width: 90%;
+  }
+  #footer .footer--account__ap {
+    margin-bottom: 40px;
+  }
+  #footer .footer--account {
+    height: 187px;
+  }
+  #footer .footer--email h1 {
+    font-size: 1.2rem;
+    line-height: 32px;
+    width: 150px;
+  }
+  #footer .footer--email--int__btn {
+    right: -3px;
+    top: 0;
+  }
+}
+@media (max-width: 400px) {
+  #about .about--btn label .select1 {
+    margin-right: 69px;
+  }
+  #nft .nft--image__img18 {
+    height: 195px;
+    left: -54px;
+  }
+  #work .work--block1 {
+    width: 300px;
+    margin-left: -140px;
+  }
+  #work .work--block3 p {
+    margin-right: -172px;
+  }
+}
+@media (max-width: 375px) {
+  #header .header--modal__modal1--modal2 {
+    width: 20%;
+  }
+  #header .header--input {
+    width: 168px;
+    height: 26px;
+  }
+  #header .header--input label input {
+    width: 140px;
+  }
+  #work .work--block2 img {
+    width: 221px;
+    height: 354px;
+  }
+  #work .work--block2__wos {
+    width: 214px;
+    height: 277px;
+  }
+  #work .work--block2 {
+    height: 349px;
+    width: 151px;
+  }
+  #work .work--block1__text p {
+    margin-left: 34px;
+  }
+  #work .work--block3 p {
+    margin-right: -153px;
+  }
+  #text .text span {
+    padding: 7px 2px;
+  }
+  #about .about--btn label .select1 {
+    width: 131px;
+    height: 41px;
+    font-size: 0.8rem;
+  }
+  #about .about--btn label .select2 {
+    font-size: 0.8rem;
+    width: 131px;
+    height: 41px;
+  }
+  #week .week--block__red {
+    width: 266px;
+    height: 65px;
+  }
+  #week .week--block__red ol {
+    font-size: 1.4rem;
+  }
+  .go--see__img1 {
+    width: 45px;
+    height: 45px;
+  }
+  #week .week--block__red ol li .go--see__a {
+    width: 5px;
+    height: 5px;
+  }
+  #week .week--block__red ol li .go--see__img2 {
+    width: 14px;
+    height: 14px;
+  }
+  #week .week--block__red ol li .go--let h1 {
+    font-size: 0.8rem;
+  }
+  #week .week--block__red ol li .go--see {
+    width: 45px;
+    height: 45px;
+  }
+  #week .week--block__red ol li .go--let p {
+    font-size: 0.7rem;
+  }
+  #week .week--block__red ol li .go--put__know--icon {
+    font-size: 0.8rem;
+  }
+  #week .week--block__red ol li .go--put span {
+    font-size: 10px;
+  }
+  #week .week--say__btn {
+    font-size: 0.6rem;
+  }
+  #service .service--btn__btA {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 320px) {
+  #hero .hero--p p {
+    font-size: 0.6rem;
+  }
+  #hero .hero h1 {
+    font-size: 1.6rem;
+  }
+  #hero .hero--h1__block img {
+    width: 64px;
+    margin: 0 4px;
+  }
+  #hero .hero--h1__block1 img {
+    width: 103px;
+    margin: 0 4px;
+  }
+  #work .work--block1__text p {
+    margin-left: 67px;
+  }
+  #work .work--block1__text p {
+    font-size: 0.7rem;
+    height: 40px;
+  }
+  #work .work--block3 p {
+    margin-right: -94px;
+  }
+  #about .about--btn label .select1 {
+    margin-right: 22px;
+  }
+  #week .week--text h1 {
+    font-size: 1.8rem;
+  }
+  #service .service details summary {
+    flex-wrap: wrap;
+  }
+  #service .service details summary p {
+    width: 278px;
+  }
+  #footer .footer--account__sp {
+    width: 90%;
+  }
+  #header .header--logo h1 {
+    font-size: 1.2rem;
+  }
+  #header .header--logo h1 span {
+    font-size: 0.8rem;
+  }
+  #header .header--input {
+    width: 151px;
+  }
+  #header .header--input label input {
+    width: 123px;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */
